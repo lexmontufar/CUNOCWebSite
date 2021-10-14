@@ -1,0 +1,20 @@
+// Customization
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+html {
+    overflow-y: auto;
+    min-height: 100%;
+}
+
+body{
+    font-family: 'Montserrat', Arial;
+    background: #1b292f url(/build/images/ambientsunset.jpg) 50% 50% no-repeat fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+
+.logo{
+    height: 130px;
+}
